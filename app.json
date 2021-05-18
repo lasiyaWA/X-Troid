@@ -1,0 +1,109 @@
+{
+    "name": "X-Troid",
+    "description": "World first Sinhala Whatsapp User bot ",
+    "logo": "https://telegra.ph/file/9298dc3611d056b85b63b.jpg",
+    "keywords": ["whatsapp", "userbot", "X-Troid", "Danuma", "bot", "api", "ai"],
+    "repository": "",
+    "website":   "https://lasiya.ml",
+    "success_url": "https://t.me/danumabots",
+    "stack": "container",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය. Type here yours Session.",
+            "required": true
+        },
+        "LANGUAGE": {
+            "description": "EN ,SI හෝ යොදන්න.. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
+            "required": true,
+            "value": "EN"
+        },
+        "HANDLERS": {
+            "description": "විධාන සදහා . For commands.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "SEND_READ": {
+            "description": "seen කිරීමට අවශ්‍ය නම් මෙලෙසම තබන්න  Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "වෙනස් නොකරන්න! Do not change ",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "හෙරොකු api එක. Heroku API Key.",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "කතාව නිහඬ කිරීමේ පනිවුඩය Customizable Mute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "නැවත කතාකිරීමට අවස්තා ලබාදීමේ පනිවුඩය. Customizable Unmute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "පුද්ගලික හෝ පොදු බොට් කෙනෙක්ද යන්න. Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "private"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "ඔබ එකතූකල ඇප් නාමය. Heroku APP Name.",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "වෙනස් කිරීමට අවශ්‍ය නැත",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "මෙම වෙබ් අඩවියෙන් ඔබගේ api එක සාදාගන්න. https://remove.bg",
+            "required": false
+        },
+        "ALIVE_MESSAGE": {
+            "description": "සක්‍රීය පනිවිඩය. Customizable Alive Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "පන්නාදැමීමේ පනිවිඩය (වෙනස් කිරීමට අවශ්‍ය නොමැතිනම් එලෙසම තබන්න) Customizable Ban Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "ස්වයං ඉවත්වීමේ පනිවිඩය(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Kickme Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "තනතුර උසස්කිරීමේ පනිවිඩය.(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Promote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "තනතුර පහලහෙලීමේ පනිවුඩය(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Demote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "තවදුරටත් Online නොමැති බව දැන්වීමේ පනිවුඩය.(අවශ්‍ය නැතිනම් එලෙසම තබන්න)Customizable AFK Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "NO_ONLINE": {
+            "description": "ඔබ සෑම විටම Online සිටින බව නොපෙන්වීමට true ලෙස ටයිප් කරන්න. Type true if you don't want to appear online.",
+            "required": false,
+            "value": "true"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
