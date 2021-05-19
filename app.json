@@ -15,7 +15,7 @@
         "LANGUAGE": {
             "description": "EN ,SI හෝ යොදන්න.. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
             "required": true,
-            "value": "EN"
+            "value": "SI"
         },
         "HANDLERS": {
             "description": "විධාන සදහා . For commands.",
