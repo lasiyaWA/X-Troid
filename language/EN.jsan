@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "AUTHOR": "Lasiya",
+    "AUTHOR": "teenuh",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Command",
@@ -71,9 +71,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Ｘ-Ｔｒｏｉｄ",
+            "RESTART_DESC": "Restart H A S H Z",
             "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown Ｘ-Ｔｒｏｉｄ",
+            "SHUTDOWN_DESC": "Shutdown H A S H Z",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -475,7 +475,7 @@
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
-            "NOT": "*😷 Be careful🤒*\n\n⚠️ Avoid public places\n⚠️Wear masks\n⚠️ Wash your hands often\n\n*For the information you need*\n Visit the WHO official whatsapp\nwa.me/+41798931892\n\n *A reminder of your life to you* \n     *💡Danuma Group📚*"
+            "NOT": "*😷 Be careful🤒*\n\n⚠️ Avoid public places\n⚠️Wear masks\n⚠️ Wash your hands often\n\n*For the information you need*\n Visit the WHO official whatsapp\nwa.me/+41798931892\n\n *A reminder of your life to you* \n     *💡TEENUHBOTS*"
         }
     }
 }
