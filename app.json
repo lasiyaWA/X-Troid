@@ -1,11 +1,11 @@
 {
-    "name": "X-Troid",
+    "name": "👽Hash Z",
     "description": "World first Sinhala Whatsapp User bot ",
     "logo": "https://telegra.ph/file/9298dc3611d056b85b63b.jpg",
-    "keywords": ["whatsapp", "userbot", "X-Troid", "Danuma", "bot", "api", "ai"],
+    "keywords": ["whatsapp", "userbot", "👽Hash Z", "Danuma", "bot", "api", "ai"],
     "repository": "",
-    "website":   "https://lasiya.ml",
-    "success_url": "https://t.me/danumabots",
+    "website":   "https://teeenuh.ml",
+    "success_url": "https://t.me/danumabts",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
