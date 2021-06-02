@@ -60,6 +60,11 @@
             "required": true,
             "value": "false"
         },
+        "LOL_HM_API_KEY": {
+            "description": "පැමිණීමට නියමිත අංගයකි.මෙය හිස්ව තබන්න.",
+            "required": false
+        },
+            
         "REMOVE_BG_API_KEY": {
             "description": "මෙම වෙබ් අඩවියෙන් ඔබගේ api එක සාදාගන්න. https://remove.bg",
             "required": false
