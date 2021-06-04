@@ -20,7 +20,7 @@
         "HANDLERS": {
             "description": "විධාන සදහා . For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.]"
         },
         "SEND_READ": {
             "description": "seen කිරීමට අවශ්‍ය නම් මෙලෙසම තබන්න  Write true if you want to throw seen.",
