@@ -34,3 +34,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ----|----|
 [Yusuf Usta](https://t.me/fusufs) | [CW4RR10R](https://t.meW4RR10R)
  Base, | hepls,idea
+
+# base bot
+https://github.com/yusufusta/WhatsAsena
+
+# Baileys whatsapp api 
+https://github.com/adiwajshing/Baileys
