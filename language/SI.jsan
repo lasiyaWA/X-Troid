@@ -97,7 +97,7 @@
             "INVALID": "```වැරදි යතුරක් හෝ :වැරදි අගයකි```",
             "GETVAR_DESC": "config var ලබාගැනීම",
             "DELVAR_DESC": "config var මකාදැමීම",
-            "DEL_SUCCESS": "```{} සාර්ථකව මකා දමන ලදි```",
+            "DEL_SUCCESS": ```{} සාර්ථකව මකා දමන ලදි```"
             "NOT_FOUND": "```මෙම යතුර සඳහා ප්රතිපල හමු නොවීය```"           
         },
         "filters": {
@@ -119,7 +119,7 @@
             "WELCOME_DELETED": "*✅පිළිගැනීමේ පණිවිඩය සාර්ථකව මකා දමා ඇත!*",
             "WELCOME_SETTED": "*✅ පිළිගැනීමේ පණිවිඩය සාර්ථකව සකසා ඇත!*",
             "GOODBYE_DESC": "සමුගැනීමේ පණිවිඩය සකසයි. ඔබ හිස්ව තැබුවහොත්, එය සමුගැනීමේ පණිවිඩය පෙන්වයි.",
-            "NOT_SET_GOODBYE": "*ඔබ සමුගැනීමේ පණිවිඩයක් සකසා නැත!*\n*To set:* ```.goodbye bye && bye#see ya```",
+            "NOT_SET_GOODBYE": "*ඔබ සමුගැනීමේ පණිවිඩයක් සකසා නැත!*\n*To set:* ```.goodbye bye && bye#see ya```
             "GOODBYE_ALREADY_SETTED": "*✅ ආයුබෝවන් පණිවිඩය සකසා ඇත!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*සමුගැනීමේ පණිවිඩය සැකසීමට ඔබ පණිවිඩයක් ලිවිය යුතුය.*\n*Example:* ```.goodbye bye && bye#see ya```",
             "GOODBYE_DELETED": "*✅ ආයුබෝවන් පණිවිඩය සාර්ථකව මකා දමා ඇත!*",
@@ -136,7 +136,7 @@
             "DISABLED": "*Ai asinstant වසා ඇත*"
             
         },
-        "memes": {
+        "memes": 
             "MEMES_DESC": "ඔබ පිළිතුරු දුන් ඡායාරූප මිම්ස්.",
             "NEED_REPLY": "*ඡායාරූපයකට රිප්ලයිකරන්න!*",
             "DOWNLOADING": "```meme මාධ්‍ය බාගත කිරීම සහ සෑදීම```"
@@ -145,10 +145,10 @@
             "OCR_DESC": "ඔබ පිළිතුරු දුන් ඡායාරූපයෙහි පෙළ කියවයි.",
             "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Media is downloading & reading...```",
-            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
+            "ERROR: "```I couldn't read this :/```\n*Error:*```{}```",
             "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
-        "profile": {
+        "profile": 
             "KICKME_DESC": "It kicks you from the group you are using it in.",
             "KICKME": "```Bye bye! I am going 🤠```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
@@ -176,7 +176,7 @@
             "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
             "NEED_REPLY": "```Please reply to any message!```",
             "LANG": "Language",
-            "FROM": "Translated Language",
+            "FROM": "Translated Language"
             "RESULT": "Translate",
             "TRANSLATE_ERROR": "❌ An error occured while translating!*",
             "CURRENCY_ERROR": "```Syntax error! Example: .currency 1 TRY USD```",
@@ -187,8 +187,8 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "```Downloading your song...```"
+            "UPLOADING_SONG": "```Uploading your song...```"
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Downloading your video...```",
@@ -216,7 +216,7 @@
             "ADMİN": "*I am not admin in this group!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
+            "UPDATER_DESC": "Checks the update."
             "UPDATE": "*✔️Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New updates available for X-Troid!*\n\n*Changes:*\n\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
@@ -227,18 +227,18 @@
             "AFTER_UPDATE": "*💬 X-Troid Restarting ♻️ Automatically!*"
         },
         "weather": {
-            "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
+            "WEATHER_DESC": "Shows the weather."
+            "NEED_LOCATION": * Please write a location!*\n*Example:* ```.weather Bakü```",
             "LOCATION": "Location🚩",
             "TEMP": "Temperature🌡️",
-            "DESC": "Description💁‍♂️",
+            "DESC": "Description💁‍♂️"
             "HUMI": "Humidity🍃",
             "WIND": "Wind Speed🌬️",
             "CLOUD": "Clouds⛅",
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
         },
         "web": {
-            "SPEEDTEST_DESC": "Measures Download and Upload speed.",
+            "SPEEDTEST_DESC": "Measures Download and Upload speed."
             "SPEEDTESTING": "```Running speed test...```",
             "SPEEDTEST_RESULT": "*Speed ​​test completed!*",
             "UPLOAD": "Upload",
@@ -256,11 +256,11 @@
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_DESC": "Applies the selected TBlend effect to videos." 
+            "T_DESC": "Applies the selected TBlend effect to videos."
         },
         "mute": {
             "BİRMUTE": "*The group was silenced for 1 minute!*",
-            "İKİMUTE": "*The group was silenced for 2 minute!*",
+            İKİMUTE": "*The group was silenced for 2 minute!*"
             "ÜÇMUTE": "*The group was silenced for 3 minute!*",
             "DÖRTMUTE": "*The group was silenced for 4 minute!*",
             "BEŞMUTE": "*The group was silenced for 5 minute!*",
@@ -273,7 +273,7 @@
             "ONİKİMUTE": "*The group was silenced for 12 minute!*",
             "ONÜÇMUTE": "*The group was silenced for 13 minute!*",
             "ONDÖRTMUTE": "*The group was silenced for 14 minute!*",
-            "ONBEŞMUTE": "*The group was silenced for 15 minute!*",
+            "ONBEŞMUTE": "*The group was silenced for 15 minute!*"
             "ONALTIMUTE": "*The group was silenced for 16 minute!*",
             "ONYEDİMUTE": "*The group was silenced for 17 minute!*",
             "ONSEKİZMUTE": "*The group was silenced for 18 minute!*",
@@ -295,7 +295,7 @@
             "OTUZDÖRTMUTE": "*The group was silenced for 34 minute!*",
             "OTUZBEŞMUTE": "*The group was silenced for 35 minute!*",
             "OTUZALTIMUTE": "*The group was silenced for 36 minute!*",
-            "OTUZYEDİMUTE": "*The group was silenced for 37 minute!*",
+            "OTUZYEDİMUTE": "*The group was silenced for 37 minute!*"
             "OTUZSEKİZMUTE": "*The group was silenced for 38 minute!*",
             "OTUZDOKUZMUTE": "*The group was silenced for 39 minute!*",
             "KIRKMUTE": "*The group was silenced for 40 minute!*",
@@ -307,7 +307,7 @@
             "KIRKALTIMUTE": "*The group was silenced for 46 minute!*",
             "KIRKYEDİMUTE": "*The group was silenced for 47 minute!*",
             "KIRKSEKİZMUTE": "*The group was silenced for 48 minute!*",
-            "KIRKDOKUZMUTE": "*The group was silenced for 49 minute!*",
+            "KIRKDOKUZMUTE": "*The group was silenced for 49 minute!*"
             "ELLİMUTE": "*The group was silenced for 50 minute!*",
             "ELLİBİRMUTE": "*The group was silenced for 51 minute!*",
             "ELLİİKİMUTE": "*The group was silenced for 52 minute!*",
@@ -318,13 +318,13 @@
             "ELLİYEDİMUTE": "*The group was silenced for 57 minute!*",
             "ELLİSEKİZMUTE": "*The group was silenced for 58 minute!*",
             "ELLİDOKUZMUTE": "*The group was silenced for 59 minute!*",
-            "SAATBİRMUTE": "*The group was silenced for 1 hour!*",
+            "SAATBİRMUTE": "*The group was silenced for 1 hour!*"
             "SAATİKİMUTE": "*The group was silenced for 2 hour!*",
             "SAATÜÇMUTE": "*The group was silenced for 3 hour!*",
             "SAATDÖRTMUTE": "*The group was silenced for 4 hour!*",
             "SAATBEŞMUTE": "*The group was silenced for 5 hour!*",
             "SAATALTIMUTE": "*The group was silenced for 6 hour!*",
-            "SAATYEDİMUTE": "*The group was silenced for 7 hour!*",
+            "SAATYEDİMUTE": "*The group was silenced for 7 hour!*"
             "SAATSEKİZMUTE": "*The group was silenced for 8 hour!*",
             "SAATDOKUZMUTE": "*The group was silenced for 9 hour!*",
             "SAATONMUTE": "*The group was silenced for 10 hour!*",
@@ -334,24 +334,24 @@
             "GÜNİKİMUTE": "*The group was silenced for 2 day!*",
             "GÜNÜÇMUTE": "*The group was silenced for 3 day!*",
             "TÜR": "*Unknown Command!*\n_Minute: 1-59m_\n_Hour: 1-12h_\n_Day: 1d-3d_",
-            "MUTE_DESC": "Turns off group chat. Only admins can send messages!",
+            MUTE_DESC": "Turns off group chat. Only admins can send messages!",
             "MUTE_OPEN": "```The group chat has unmuted!```"
-        },
+        }
         "unvoice": {
             "UV_DESC": "Converts audio to sound recording.",
             "UV_REPLY": "*You Must Reply to the Audio File!*",
             "UV_PROC": "```Converting to Sound Recording..```"
-        },
+        }
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
             "FF_PROC": "Applying Effect.."
         },
-        "spammer": {
+        "spammer": 
             "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
             "NEED_WORD": "*Need Some Words!*",
             "STOP_SPAMDESC": "Stops spam command.",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
-            "ST_DESC": "Convert the replied photo or video to sticker and send it as spam.",
+            "ST_DESC": "Convert the replied photo or video to sticker and send it as spam."
             "ST_ST": "```Please Don't Reply to Stciker!```\n```Only Reply to Video or Photo!```",
             "ST_NEED": "```You Must Reply To Any Video Or Photo!```",
             "AU_DESC": "Sends the replied audio as spam.",
@@ -369,7 +369,7 @@
         "scam": {
             "SCAM_DESC": "Creates 5 minutes of fake actions.",
             "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
+            "SCAM_NULL": "```Wrong ActionEntered! Please use existing types.```"
         },
         "deepai": {
             "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
@@ -380,7 +380,7 @@
             "TTP_DESC": "Converts text to plain painting.",
             "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
             "NEED_WORD": "*You must enter words!*",
-            "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
+            "ANIME_DESC": "It writes the ext inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
             "CHANGE_DESC": "Turns the text into the change my mind poster.",
             "GLOW_DESC": "Converts text into neon painting.",
@@ -405,7 +405,7 @@
             "ONLY_AUDIO":"```Only audio file is accepted.```",
             "USAGE": "It converts audio to text.",
             "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
-        },
+        ,
         "notes": {
             "NOTES_USAGE": "Shows all your existing notes.",
             "NO_SAVED": "You don't have any saved notes.",
@@ -414,7 +414,7 @@
             "REPLY": "Please provide a note or reply to a message.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
             "UNSUCCESSFUL": "Could not add note, please try again later or contact WhatsAsena developers.",
-            "DELETE_USAGE": "Deletes *all* your saved notes.",
+            "DELETE_USAGE": "Deletes *all your saved notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
         "instagram": {
@@ -431,7 +431,7 @@
             "PUBLIC": "Public",
             "HIDDEN": "Hidden",
             "NOT_FOUND":"User not found: "
-        },
+        }
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github SLdevilX",
             "REPLY": "```You Need To Type Any Username!```",
@@ -450,7 +450,7 @@
             "JOİN": "Joining Date:",
             "HİRE_FALSE": "Cannot Hirable 🚫",
             "HİRE_TRUE": "Hirable ☑️",
-            "HİRE": "Can s/he Hirable?:",
+            "HİRE": "Can s/he Hirable?:"
             "URL": "Profile URL:",
             "UPDATE": "Last Update:"
         },
@@ -471,14 +471,14 @@
         "lyrics": {
             "LY_DESC": "Finds the lyrics of the song.",
             "NEED": "```You Must Write Any Song!```",
-            "SLY": "Lyrics:",
+            "SLY": "Lyrics:"
             "AUT": "Song Owner:",
             "BUL": "Founded Song:",
             "ARAT": "Searched Song:"
         },
-        "covid": {
+        "covid": 
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
             "NOT": "*🤒 ප්‍රවේශම්වන්න😷*\n\n⚠️ සෙනඟ ගැවසෙන ස්ථාන මගහරින්න\n⚠️මුඛ ආවරණ පළඳින්න\n⚠️නිතර අත සෝදන්න\n\n*ඔබට අවශ්‍ය තොරතුරු දැනගැනීමට*\n WHO නිල whatsapp එක වෙත පිවිසෙන්න.\n wa.me/+41798931892\n\n*ඔබට ඔබේ ජීවිතය මතක් කිරීමකි*\n        💡*දැනුම සමූහය*📚"
         }
     }
-}
+
