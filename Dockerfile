@@ -36,7 +36,7 @@ FROM fusuf/whatsasena:latest
     #API_HASH = os.environ.get("API_HASH", None)
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    #STRINGSESSION = os.environ.get("STRINGSESSION", None)
+    #SThttps://studio.youtube.com/RINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
     #3)
@@ -75,7 +75,7 @@ FROM fusuf/whatsasena:latest
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     #AFS = list(SUDO_USERS)
-    #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
+    #CUhttps://studio.youtube.com/STOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
@@ -105,7 +105,7 @@ FROM fusuf/whatsasena:latest
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
-    #API_HASH = os.environ.get("API_HASH", None)
+    #API_HAShttps://studio.youtube.com/H = os.environ.get("API_HASH", None)
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
@@ -145,7 +145,7 @@ FROM fusuf/whatsasena:latest
     #MONGO_DB = os.environ.get("MONGO_DB", None)
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
-    #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    #SUDO_USERhttps://studio.youtube.com/S = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -181,7 +181,7 @@ FROM fusuf/whatsasena:latest
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
-    #ASSISTANT_START_PIC = os.environ.get(
+    #ASSISTANThttps://studio.youtube.com/_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
     #3)
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
@@ -210,7 +210,7 @@ FROM fusuf/whatsasena:latest
     #3)
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
-    #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
+    #STRINGSEhttps://studio.youtube.com/SSION_4 = os.environ.get("STRINGSESSION_4", None)
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     #TZ = os.environ.get("TZ", "Asia/Kolkata")
@@ -231,7 +231,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
@@ -245,7 +245,7 @@ FROM fusuf/whatsasena:latest
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_Ahttps://www.youtube.com/watch?v=mDnJ7q3S3eYPP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #LYDIA_APhttps://studio.youtube.com/I_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
@@ -255,7 +255,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_STAhttps://github.com/lasiyaWA/X-Troid/edit/main/DockerfileRT_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
@@ -279,7 +279,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
@@ -303,12 +303,12 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
-    #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
+    #PLUGIN_https://studio.youtube.com/CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     #TZ = os.environ.get("TZ", "Asia/Kolkata")
     #MONGO_DB = os.environ.get("MONGO_DB", None)
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
@@ -327,7 +327,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
@@ -342,7 +342,7 @@ FROM fusuf/whatsasena:latest
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #HEROKU_Ahttps://studio.youtube.com/PI_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
     #API_HASH = os.environ.get("API_HASH", None)
@@ -351,7 +351,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
@@ -375,7 +375,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
-    #3)
+    #3)https://studio.youtube.com/
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
