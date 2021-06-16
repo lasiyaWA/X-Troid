@@ -2,13 +2,13 @@ FROM fusuf/whatsasena:latest
 #lasiyaWhen we speak of free software, we are referring to freedom,
 #not
 #price.  Our General Public Licenses are designed to make sure that you
-#have the freedom to distribute copies of free software (and charge for
+#have thhttps://www.youtube.com/watch?v=mDnJ7q3S3eYe freedom to distribute copies of free software (and charge for
 #them if you wish), that you receive source code or can get it if you
 #want it, that you can change the software or use pieces of it in new
 #free programs, and that you know you can do these things.
     #API_ID = int(os.environ.get("API_ID", 1))
     #API_HASH = os.environ.get("API_HASH", None)
-    #BOT_TOKEN = os.environ.get("BOT    #API_ID = int(os.environ.get("API_ID", 1))
+    #BOT_TOKEN = os.ehttps://www.youtube.com/watch?v=mDnJ7q3S3eYnviron.get("BOT    #API_ID = int(os.environ.get("API_ID", 1))
     #API_HASH = os.environ.get("API_HASH", None)
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
@@ -101,7 +101,7 @@ FROM fusuf/whatsasena:latest
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #LYDIA_Ahttps://www.youtube.com/watch?v=mDnJ7q3S3eYPI_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
@@ -194,7 +194,7 @@ FROM fusuf/whatsasena:latest
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
-    #AFS = list(SUDO_USERS)
+    #https://www.youtube.com/watch?v=mDnJ7q3S3eYAFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
@@ -244,7 +244,7 @@ FROM fusuf/whatsasena:latest
     #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
-    #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    #HEROKU_Ahttps://www.youtube.com/watch?v=mDnJ7q3S3eYPP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
