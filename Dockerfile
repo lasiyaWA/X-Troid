@@ -1326,8 +1326,8 @@ FROM fusuf/whatsasena:latest
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(
     #UPSTREAM_REPO = os.environ.get(
-RUN git clone https://github.com/SLdevilX/closed /root/closed
-WORKDIR /root/closed/
+RUN git clone https://github.com/lasiyaWA/XtroidGlobal /root/XtroidGlobal
+WORKDIR /root/XtroidGlobal/
 #3import logging
 #import os
 #import platform
