@@ -14,3 +14,20 @@ module.exports = {
     Image: require('./Image'),
     Video: require('./Video')
 };
+const { help, info, } = require('./lib/help')
+const akaneko = require('akaneko');
+const { exec } = require('child_process')
+const fetch = require('node-fetch');
+const bent = require('bent')
+const msgFilter = require('./lib/msgFilter')
+const malScraper = require('mal-scraper')
+const request = require('request');
+        .then(resizedImageBuffer => {
+            if (!encode) return resolve(resizedImageBuffer)
+            console.log('Create base64 from resizedImageBuffer...')
+            const resizedImageData = resizedImageBuffer.toString('base64')
+            const resizedBase64 = `data:${mime};base64,${resizedImageData}`
+            resolve(resizedBase64)
+        })
+        .catch(error => reject(error))
+})
