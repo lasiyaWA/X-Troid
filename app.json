@@ -60,8 +60,8 @@
             "required": true,
             "value": "false"
         },
-        "LOGOAPI": {
-            "description": "පැමිණීමට නියමිත අංගයකි.මෙය හිස්ව තබන්න.",
+        "CP": {
+            "description": "ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
             "required": false
         },
             
@@ -70,12 +70,12 @@
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "සක්‍රීය පනිවිඩය. Customizable Alive Message! Use => default, to change back.",
+            "description": "සක්‍රීය පනිවිඩය.  Customizable Alive Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BAN_MESSAGE": {
-            "description": "පන්නාදැමීමේ පනිවිඩය (වෙනස් කිරීමට අවශ්‍ය නොමැතිනම් එලෙසම තබන්න) Customizable Ban Message! Use => default, to change back.",
+            "description": "පන්නාදැමීමේ පනිවිඩය (මෙය වෙනස් නොකරන්න) Customizable Ban Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
