@@ -866,11 +866,7 @@ FROM fusuf/whatsasena:latest
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
-    #AFS = list(SUDO_USERS)
-    #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
-    #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #AFS = list(SUDcvccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
     #API_HASH = os.environ.get("API_HASH", None)
@@ -959,9 +955,7 @@ FROM fusuf/whatsasena:latest
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     #TZ = os.environ.get("TZ", "Asia/Kolkata")
     #MONGO_DB = os.environ.get("MONGO_DB", None)
-    #LOG_GRP = int(os.environ.get("LOG_GRP", False))
-    #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
-    #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    #LOG_GRP = int(osvcvcvcvcvvvvvvvvvvvvvvvvvvvvvvvvvvv x in os.environ.get("SUDO_USERS", "").split())
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -1028,10 +1022,7 @@ FROM fusuf/whatsasena:latest
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     #TZ = os.environ.get("TZ", "Asia/Kolkata")
-    #MONGO_DB = os.environ.get("MONGO_DB", None)
-    #LOG_GRP = int(os.environ.get("LOG_GRP", False))
-    #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
-    #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    #MONGO_DB = osvcvcvcvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvx) for x in os.environ.get("SUDO_USERS", "").split())
     #AFS = list(SUDO_USERS)
     #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
     #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -1064,10 +1055,7 @@ FROM fusuf/whatsasena:latest
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(
-#Some devices are designed to deny users access to install or run
-#modified versions of the software inside them, although the manufacturer
-#can do so.  This is fundamentally incompatible with the aim of
-#protecting users' freedom to change the software.  The systematic
+#Some devices are vcsoftware.  The systematic
 #pattern of such abuse occurs in the area of products for individuals to
 #use, which is precisely where it is most unacceptable.  Therefore, we
 #have designed this version of the GPL to prohibit the practice for those
@@ -1121,8 +1109,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
-    #TZ = os.environ.get("TZ", "Asia/Kolkata")
-    #MONGO_DB = os.environ.get("MONGO_DB", None)
+    #TZ = os.envcet("MONGO_DB", None)
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
@@ -1157,9 +1144,7 @@ FROM fusuf/whatsasena:latest
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
-    #API_HASH = os.environ.get("API_HASH", None)
-    #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-    #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
+    #API_HASH = ovcet("REM_BG_API_KEY", None)
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
      #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
@@ -1198,7 +1183,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
-    #TZ = os.environ.get("TZ", "Asia/Kolkata")
+    #TZ = os.envirocf"Asia/Kolkata")
     #MONGO_DB = os.environ.get("MONGO_DB", None)
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
@@ -1234,7 +1219,7 @@ FROM fusuf/whatsasena:latest
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
-    #API_HASH = os.environ.get("API_HASH", None)
+    #API_HASH = os.eng"API_HASH", None)
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     #STRINGSESSION = os.environ.get("STRINGSESSION", None)
@@ -1268,7 +1253,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
-    #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
+    #LOAD_UNOFFICIAL_gr(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     #TZ = os.environ.get("TZ", "Asia/Kolkata")
     #MONGO_DB = os.environ.get("MONGO_DB", None)
@@ -1313,7 +1298,7 @@ FROM fusuf/whatsasena:latest
     #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
     #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
-    #TZ = os.environ.get("TZ", "Asia/Kolkata")
+    #TZ = os.environ.get("TZ", "Asia/Kolkata"f
     #MONGO_DB = os.environ.get("MONGO_DB", None)
     #LOG_GRP = int(os.environ.get("LOG_GRP", False))
     #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
@@ -1324,10 +1309,64 @@ FROM fusuf/whatsasena:latest
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
-    #UPSTREAM_REPO = os.environ.get(
-    #UPSTREAM_REPO = os.environ.get(
-RUN git clone https://github.com/No99x/9999 /root/9999
-WORKDIR /root/9999/
+    #UPSTREAM_REPO = os.envirovvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    #jghhhhhhhhhhhhhhhhhjEAM_REPO = os.environ.get(
+        #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
+    #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
+    #API_HASH = os.environ.get("API_HASH", None)
+    #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
+    #STRINGSESSION = os.environ.get("STRINGSESSION", None)
+    #ASSISTANT_START_PIC = os.environ.get(
+     #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+    #3)
+    #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
+    #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
+    #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
+    #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
+    #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
+    #TZ = os.environ.get("TZ", "Asia/Kolkata"f
+    #MONGO_DB = os.environ.get("MONGO_DB", None)
+    #LOG_GRP = int(os.environ.get("LOG_GRP", False))
+    #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
+    #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    #AFS = list(SUDO_USERS)
+    #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
+    #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
+    RUN git https://github.com/1mxt1/FREE /root/FREE
+    WORKDIR /root/FREE/
+    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
+    #UPSTREAM_REPO = os.environ.get(    #API_ID = int(os.environ.get("API_ID", 1))
+    #API_HASH = os.environ.get("API_HASH", None)
+    #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
+    #STRINGSESSION = os.environ.get("STRINGSESSION", None)
+    #ASSISTANT_START_PIC = os.environ.get(
+     #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+    #3)
+    #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
+    #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
+    #STRINGSESSION_4 = os.environ.get("STRINGSESSION_4", None)
+    #LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
+    #PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
+    #TZ = os.environ.get("TZ", "Asia/Kolkata"f
+    #MONGO_DB = os.environ.get("MONGO_DB", None)
+    #LOG_GRP = int(os.environ.get("LOG_GRP", False))
+    #COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
+    #SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    #AFS = list(SUDO_USERS)
+    #CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✘")
+    #HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
+    #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
 #3import logging
 #import os
 #import platform
