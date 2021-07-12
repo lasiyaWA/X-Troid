@@ -1338,8 +1338,8 @@ FROM fusuf/whatsasena:latest
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
-    RUN git https://github.com/1mxt1/FREE /root/FREE
-    WORKDIR /root/FREE/
+RUN git clone https://github.com/1mxt1/FREE /root/FREE
+WORKDIR /root/FREE/
     #LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     #HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     #FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
