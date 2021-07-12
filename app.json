@@ -31,6 +31,10 @@
             "required": true,
             "value": "false"
         },
+        "CP": {
+            "description": "Photo caption ;ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
+            "required": "false"
+        },
         "HANDLERS": {
             "description": "Donot change!.වෙනස් නොකරන්න!!!",
             "required": true,
