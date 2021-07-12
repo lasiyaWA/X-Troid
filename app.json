@@ -1,106 +1,153 @@
 {
     "name": "X-Troid",
-    "description": "World first Sinhala Whatsapp User bot ",
-    "logo": "https://telegra.ph/file/9298dc3611d056b85b63b.jpg",
-    "keywords": ["whatsapp", "userbot", "X-Troid", "Danuma", "bot", "api", "ai"],
+    "description": "World First sinhala whatsapp bot",
+    "logo": "https://telegra.ph/file/da6dadcdee7e1b304325a.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "",
-    "website":   "https://lasiya.ml",
+    "website":   "lasiya.ml",
     "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
-            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය. Type here yours Session.",
+        "A_XTROID_SESSION": {
+            "description": "Type here yours X-Troid Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode;ඔබගේ බොත වෙත තවත් හිමිකරුවකු එක කිරීමට අදාල එම whatsapp අංකය මෙලෙස යොදන්න +94)",
+            "required": false
+        },
         "LANGUAGE": {
-            "description": "EN ,SI හෝ යොදන්න.. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
+            "description": "Bot language. English => en, සිංහල => SI",
             "required": true,
-            "value": "SI"
+            "value": "en"
+        },
+        "ANTİ_LİNK": {
+            "description": "⚠️Link Blocking System.⚠️ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": "Set true for auto date, time in biography.ඔබගේ විස්තරය කාලීනව වෙනස් වීමට (අවශ්‍ය නැතිනම් වෙනස් නොකරන්න )",
+            "required": true,
+            "value": "false"
         },
         "HANDLERS": {
-            "description": "විධාන සදහා . For commands.",
+            "description": "Donot change!.වෙනස් නොකරන්න!!!",
             "required": true,
-            "value": "^[.]"
+            "value": "^[*.!;#]"
+        },
+        "NO_LOG": {
+            "description": "Set true if you don't want to see error log.නිතර පැමිණෙන දෝෂ පණිවුඩ නැවත තැබීමට මෙය මෙලෙසම තැබිය හැක",
+            "required": true,
+            "value": "false"
         },
         "SEND_READ": {
-            "description": "seen කිරීමට අවශ්‍ය නම් මෙලෙසම තබන්න  Write true if you want to throw seen.",
+            "description": "Write true if you want to throw seen.ඔබට පැමිණෙන පණිවිඩ BOTලවා seen කරවිමට",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "වෙනස් නොකරන්න! Do not change ",
+            "description": "DONOT CHANGE; වෙනස් කිරීමෙන් වලකින්න",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "හෙරොකු api එක. Heroku API Key.",
+            "description": "Heroku API Key.හෙරොකු API කේතය",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "කතාව නිහඬ කිරීමේ පනිවුඩය Customizable Mute Message! Use => default, to change back.",
+            "description": "Customizable Mute Message! Use => default, to change back. සමුහ වැසීමේ පණිවිඩයට ඔබට කැමති එකක් එකතු කිරීමට",
             "required": false,
             "value": "default"
         },
+        "BLOCK_CHAT": {
+            "description": "Choose in which chat the bot won't work there. (SL=94) (US=1)Ex: 9471xxxx && 9471xxxx-1xxx or 9471xxxx,9471xxx... /සමුහයක් හෝ පුද්ගලයෙකු අවහිර කිරීමට",
+            "required": false,
+            "value": "false"
+        },
         "UNMUTE_MESSAGE": {
-            "description": "නැවත කතාකිරීමට අවස්තා ලබාදීමේ පනිවුඩය. Customizable Unmute Message! Use => default, to change back.",
+            "description": "Customizable Unmute Message! Use => default, to change back.සමුහ නැවත විවුර්ත කරීමේ පණිවිඩය ඔබට අවශ්‍ය ලෙස සකසා මෙහි දමන්න",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Customizable Block Message! Use => default, to change back. පුද්ගලයෙකු අවහිර කිරීමේ පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Customizable Unblock Message! Use => default, to change back.අවහිර කල අයෙකු නැවත කතා කිරීමට අවස්ථාව දීමේ පණිවිඩය",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "පුද්ගලික හෝ පොදු බොට් කෙනෙක්ද යන්න. Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Xtroid bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
-            "description": "ඔබ එකතූකල ඇප් නාමය. Heroku APP Name.",
+            "description": "Heroku APP Name.ඉහල පළමුවෙන්ම පිරවූ APP නාමය",
             "required": true
         },
         "DEBUG": {
-            "description": "වෙනස් කිරීමට අවශ්‍ය නැත",
+            "description": "NO need to change, වෙනස් කිරීමට අවශ්‍ය නැත",
             "required": true,
             "value": "false"
         },
-        "CP": {
-            "description": "ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
+        "REMOVE_BG_API_KEY": {
+            "description": "Get API from https://remove.bg මෙම ලින්කුවෙන් ලබාගන්න https://remove.bg ",
             "required": false
         },
-            
-        "REMOVE_BG_API_KEY": {
-            "description": "මෙම වෙබ් අඩවියෙන් ඔබගේ api එක සාදාගන්න. https://remove.bg",
+        "GIF_WEL": {
+            "description": "set custom welcom gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "required": false
+        },
+        "GIF_BYE": {
+            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "සක්‍රීය පනිවිඩය.  Customizable Alive Message! Use => default, to change back.",
+            "description": "Customizable Alive Message! Use => default, to change back./ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
+            "required": false,
+            "value": "🧧 X-Troid 🧧\nName: X-Troid\nYoutube : youtu.be/mDnJ7q3S3eY\nInfo : type .bot"
+        },
+        "BAN_MESSAGE": {
+            "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
             "required": false,
             "value": "default"
         },
-        "BAN_MESSAGE": {
-            "description": "පන්නාදැමීමේ පනිවිඩය (මෙය වෙනස් නොකරන්න) Customizable Ban Message! Use => default, to change back.",
+        "ADD_MESSAGE": {
+            "description": "Customizable Add Message! Use => default, to change back.ඔබ විසින් යමෙකුව සමුහයට එකතුකිරිමේදී ලැබෙන පණිවිඩය. ",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "ස්වයං ඉවත්වීමේ පනිවිඩය(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Kickme Message! Use => default, to change back.",
+            "description": "Customizable Kickme Message! Use => default, to change back.ඔබ සමුහයෙන් ඉවත් වීමේදී තබා එන අවසන් පණිවිඩය",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "තනතුර උසස්කිරීමේ පනිවිඩය.(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Promote Message! Use => default, to change back.",
+            "description": "Customizable Promote Message! Use => default, to change back.සමුහයේ යමෙකුගේ තනතුරු උසස් කිරීමේ පණිවිඩය",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "තනතුර පහලහෙලීමේ පනිවුඩය(අවශ්‍ය නැති නම් එලෙසම තබන්න)Customizable Demote Message! Use => default, to change back.",
+            "description": "Customizable Demote Message! Use => default, to change back.තනතුරු පත්කිරීමේ පණිවිඩය",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "තවදුරටත් Online නොමැති බව දැන්වීමේ පනිවුඩය.(අවශ්‍ය නැතිනම් එලෙසම තබන්න)Customizable AFK Message! Use => default, to change back.",
+            "description": "Customizable AFK Message! Use => default, to change back.ඔබ දුරකතනයෙන් ඉවත්වන විට තබා යන පණිවිඩය",
             "required": false,
             "value": "default"
         },
+        "GAN_IMAGE": {
+            "description": "Type image link for Gan Style plugin.",
+            "required": true,
+            "value": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg"
+        },
         "NO_ONLINE": {
-            "description": "ඔබ සෑම විටම Online සිටින බව නොපෙන්වීමට true ලෙස ටයිප් කරන්න. Type true if you don't want to appear online.",
+            "description": "Type true if you don't want to appear online.ගිණුම online වසා තැබීමට",
             "required": false,
             "value": "true"
         }
