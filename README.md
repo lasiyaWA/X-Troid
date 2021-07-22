@@ -21,9 +21,6 @@
 
 
 
-  x
-
-
 ### ⚠️ Warning! 
 ```
 Due to Userbot; Your WhatsApp account may be banned.
@@ -39,9 +36,11 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ----|----|
 [Yusuf Usta](https://t.me/fusufs) | [CW4RR10R](https://t.meW4RR10R)
  Base, | hepls,idea
-https://telegra.ph/file/1c742619b421e4713e414.jpg
+
 # base bot
 https://github.com/yusufusta/WhatsAsena
 
 # Baileys whatsapp api 
 https://github.com/adiwajshing/Baileys
+[![](https://telegra.ph/file/1c742619b421e4713e414.jpg?size=50)](https://t.me/danumabots) 
+
