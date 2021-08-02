@@ -1,51 +1,47 @@
 {
-    "name": "X-Troid",
-    "description": "World First sinhala whatsapp bot",
-    "logo": "https://telegra.ph/file/43e16e51660004dee32d0.jpg",
+    "name": "X-Sanuwa",
+    "description": "sinhala whatsapp bot",
+    "logo": "https://github.com/xsanuwa/X-sanuwa/blob/8c2423a8c1a39a28204b7f53ee0060c1afb198f9/README.md",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "",
-    "website":   "lasiya.ml",
+    "website":   "drop.ml",
     "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
-        "A_XTROID_SESSION": {
-            "description": "Type here yours X-Troid Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
+        "A_sanuwa": {
+            "description": "Type here yours X-sanuwa (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode;ඔබගේ බොත වෙත තවත් හිමිකරුවකු එක කිරීමට අදාල එම whatsapp අංකය මෙලෙස යොදන්න +94)",
             "required": false
         },
-        "LANGUAGE": {
+        "x-LANGUAGE": {
             "description": "Bot language. English => en, සිංහල => SI",
             "required": true,
             "value": "en"
         },
-        "ANTİ_LİNK": {
+        "x-ANTİ_LİNK": {
             "description": "⚠️Link Blocking System.⚠️ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
             "required": true,
             "value": "false"
+       
         },
-        "AUTO_BİO": {
-            "description": "Set true for auto date, time in biography.ඔබගේ විස්තරය කාලීනව වෙනස් වීමට (අවශ්‍ය නැතිනම් වෙනස් නොකරන්න )",
-            "required": true,
-            "value": "false"
-        },
-        "CP": {
+        "x-CP": {
             "description": "Photo caption ;ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
             "required": false
         },
-        "HANDLERS": {
+        "x-HANDLERS": {
             "description": "Donot change!.වෙනස් නොකරන්න!!!",
             "required": true,
             "value": "^[*.!;#]"
         },
-        "NO_LOG": {
+        "x-NO_LOG": {
             "description": "Set true if you don't want to see error log.නිතර පැමිණෙන දෝෂ පණිවුඩ නැවත තැබීමට මෙය මෙලෙසම තැබිය හැක",
             "required": true,
             "value": "false"
         },
-        "SEND_READ": {
+        "x-SEND_READ": {
             "description": "Write true if you want to throw seen.ඔබට පැමිණෙන පණිවිඩ BOTලවා seen කරවිමට",
             "required": true,
             "value": "true"
@@ -85,13 +81,19 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Xtroid bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
+            "description": "X-sanuwa bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
             "required": true,
             "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.ඉහල පළමුවෙන්ම පිරවූ APP නාමය",
             "required": true
+            
+         },
+        "KICKME_MESSAGE": {
+            "description": "Customizable Kickme Message! Use => default, to change back.ඔබ සමුහයෙන් ඉවත් වීමේදී තබා එන අවසන් පණිවිඩය",
+            "required": false,
+            "value": "default"   
         },
         "DEBUG": {
             "description": "NO need to change, වෙනස් කිරීමට අවශ්‍ය නැත",
@@ -105,30 +107,29 @@
         "GIF_WEL": {
             "description": "set custom welcom gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": false
-        },
-        "GIF_BYE": {
-            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
-            "required": false
+        
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back./ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
             "required": false,
-            "value": "🧧 X-Troid 🧧\nName: X-Troid\nYoutube : youtu.be/mDnJ7q3S3eY\nInfo : type .bot"
+            "value": "X-Sanuwa"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
             "required": false,
             "value": "default"
+            
+         },
+        "AFK_MESSAGE": {
+            "description": "Customizable AFK Message! Use => default, to change back.ඔබ දුරකතනයෙන් ඉවත්වන විට තබා යන පණිවිඩය",
+            "required": false,
+            "value": "default"    
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.ඔබ විසින් යමෙකුව සමුහයට එකතුකිරිමේදී ලැබෙන පණිවිඩය. ",
             "required": false,
             "value": "default"
-        },
-        "KICKME_MESSAGE": {
-            "description": "Customizable Kickme Message! Use => default, to change back.ඔබ සමුහයෙන් ඉවත් වීමේදී තබා එන අවසන් පණිවිඩය",
-            "required": false,
-            "value": "default"
+        
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.සමුහයේ යමෙකුගේ තනතුරු උසස් කිරීමේ පණිවිඩය",
@@ -139,11 +140,12 @@
             "description": "Customizable Demote Message! Use => default, to change back.තනතුරු පත්කිරීමේ පණිවිඩය",
             "required": false,
             "value": "default"
+            
         },
-        "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.ඔබ දුරකතනයෙන් ඉවත්වන විට තබා යන පණිවිඩය",
-            "required": false,
-            "value": "default"
+        "GIF_BYE": {
+            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "required": false    
+       
         },
         "GAN_IMAGE": {
             "description": "Type image link for Gan Style plugin.",
