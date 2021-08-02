@@ -144,7 +144,7 @@ FROM fusuf/whatsasena:latest
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     #SThttps://studio.youtube.com/RINGSESSION = os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
-     #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+     #   "ASSISTANT_START_PIC", "https://github.com/xsanuwa/X-sanuwa/blob/8c2423a8c1a39a28204b7f53ee0060c1afb198f9/README.md"
     #3)
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
@@ -166,9 +166,9 @@ FROM fusuf/whatsasena:latest
     #API_HASH = os.environ.get("API_HASH", None)
     #BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     #REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    #STRINGSESSION =https://github.com/lasiyaWA/X-Troid/edit/main/Dockerfile os.environ.get("STRINGSESSION", None)
+    #STRINGSESSION =https://github.com/lasiyaWA/X-sanuwa/edit/main/Dockerfile os.environ.get("STRINGSESSION", None)
     #ASSISTANT_START_PIC = os.environ.get(
-     #   "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+     #   "ASSISTANT_START_PIC", "https://github.com/xsanuwa/X-sanuwa/blob/8c2423a8c1a39a28204b7f53ee0060c1afb198f9/README.md"
     #3)
     #STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     #S#TRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
