@@ -1,6 +1,6 @@
 <h1 align="center"><b> THE X-sanuwa Public Bot  </b></h1>
 
-![logo](Screenshot 2021-07-24 141402.jpg)
+![logo](https://weraveyou.com/wp-content/uploads/2021/02/awwryarticle.jpg)
 
 
 
