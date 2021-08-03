@@ -75,5 +75,5 @@ Asena.addCommand({pattern: 'goodbye (.*)', fromMe: true, dontAddCommandList: tru
         return await message.client.sendMessage(message.jid,Lang.GOODBYE_SETTED,MessageType.text)
     }
 }));
-# Get more about devaoloper https://lasiya.ml
+# Get more about devaoloper https://srop.ml
 */
