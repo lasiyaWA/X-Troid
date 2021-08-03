@@ -150,7 +150,7 @@
         "GAN_IMAGE": {
             "description": "Type image link for Gan Style plugin.",
             "required": true,
-            "value": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg"
+            "value": "https://github.com/xsanuwa/X-sanuwa/blob/8c2423a8c1a39a28204b7f53ee0060c1afb198f9/README.md"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.ගිණුම online වසා තැබීමට",
