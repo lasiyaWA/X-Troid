@@ -6,7 +6,7 @@
     "repository": "",
     "stack": "container",
     "env": {
-        "A_sanuwa": {
+        "A_QR_Session": {
             "description": "Type here yours X-sanuwa (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
@@ -20,7 +20,7 @@
             "value": "en"
         },
         "x-ANTİ_LİNK": {
-            "description": "⚠️Link Blocking System.⚠️ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
+            "description": "Ban Link Blocking And reporting.ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
             "required": true,
             "value": "false"
        
@@ -103,7 +103,7 @@
             "required": false
         },
         "GIF_WEL": {
-            "description": "set custom welcom gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "description": "set custom welcom gif past direct lnk of mp4 Maxximem large 2MB ( can change after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": false
         
         },
@@ -141,7 +141,7 @@
             
         },
         "GIF_BYE": {
-            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "description": "set custom good bye gif past direct lnk of mp4 Maxximeme large 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": false    
        
         },
