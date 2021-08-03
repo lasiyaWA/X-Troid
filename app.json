@@ -4,8 +4,6 @@
     "logo": "https://github.com/xsanuwa/X-sanuwa/blob/8c2423a8c1a39a28204b7f53ee0060c1afb198f9/README.md",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "",
-    "website":   "drop.ml",
-    "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
         "A_sanuwa": {
