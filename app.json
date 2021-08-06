@@ -1,15 +1,15 @@
 {
-    "name": "X-Troid",
+    "name": "BLACK PANTHER",
     "description": "World First sinhala whatsapp bot",
     "logo": "https://telegra.ph/file/43e16e51660004dee32d0.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "",
-    "website":   "lasiya.ml",
+    "website":   "kaviyaah",
     "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
-        "A_XTROID_SESSION": {
-            "description": "Type here yours X-Troid Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
+        "A_BLACKPANTHER_SESSION": {
+            "description": "Type here yours BLACK PANTHER Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
         "SUDO": {
@@ -85,7 +85,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Xtroid bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
+            "description": "BLACK PANTHER bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
             "required": true,
             "value": "public"
         },
