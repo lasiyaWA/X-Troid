@@ -35,7 +35,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 [![Yusuf Usta](https://github.com/yusufusta.png?size=50)](https://t.me/fusufs)  | [![CW4RR10R](https://github.com/CW4RR10R.png?size=50)](https://github.com/CW4RR10R)
 ----|----|
 [Yusuf Usta](https://t.me/fusufs) | [CW4RR10R](https://t.meW4RR10R)
- Base, | hepls,idea
+ Base, | helps,ideas
 
 # base bot
 https://github.com/yusufusta/WhatsAsena
