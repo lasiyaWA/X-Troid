@@ -8,6 +8,7 @@
         <a href="https://t.me/unofficialplugin">All Groups & channels </a> |
     <br>
 </p>
+
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://replit.com/@lasindu123/XTROID)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lasiyaWA/X-Troid)
@@ -23,4 +24,5 @@
 https://github.com/yusufusta/WhatsAsena
 # Baileys whatsapp api 
 https://github.com/adiwajshing/Baileys
+
 [![](https://telegra.ph/file/1c742619b421e4713e414.jpg?size=50)](https://t.me/danumabots) 
