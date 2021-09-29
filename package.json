@@ -25,7 +25,7 @@
   },
   "homepage": "https://lasiya.ml",
   "dependencies": {
-    "xtroid-vip": "^1.0.0",
+    "xtroid": "^1.4.0",
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-lasi": "^1.2.1",
