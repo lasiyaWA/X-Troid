@@ -1,9 +1,9 @@
 {
-    "name": "X-Troid",
-    "description": "World First sinhala whatsapp bot",
-    "logo": "https://telegra.ph/file/43e16e51660004dee32d0.jpg",
+    "name": "Xtroid",
+    "description": "Coded By Lasiya",
+    "logo": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
-    "repository": "",
+    "repository": "https://github.com/1XusernameX1/lizy",
     "website":   "lasiya.ml",
     "success_url": "https://t.me/danumabots",
     "stack": "container",
@@ -31,19 +31,20 @@
             "required": true,
             "value": "false"
         },
-        "CP": {
-            "description": "Photo caption ;ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
-            "required": false
-        },
         "HANDLERS": {
             "description": "Donot change!.වෙනස් නොකරන්න!!!",
             "required": true,
-            "value": "^[*.!;#]"
+            "value": "^[.!;#]"
         },
-        "NO_LOG": {
-            "description": "Set true if you don't want to see error log.නිතර පැමිණෙන දෝෂ පණිවුඩ නැවත තැබීමට මෙය මෙලෙසම තැබිය හැක",
+        "AI_LIZA": {
+            "description": "Type (true) to open artificial intelligence. : කෘතීම බුද්ධිය සක්‍රිය කිරීමට (true) ලෙස ලියන්න",
             "required": true,
             "value": "false"
+        },
+        "NO_LOG": {
+            "description": "Type (true) to stop error and log messeges. : ඔබගේම අංකයෙන් ඔබට ලැබෙන දෝෂ පණිවිඩ නවතාදැමීමට (true) ලෙස ලියන්න.",
+            "required": true,
+            "value": "true"
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.ඔබට පැමිණෙන පණිවිඩ BOTලවා seen කරවිමට",
@@ -110,10 +111,9 @@
             "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": false
         },
-        "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back./ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
-            "required": false,
-            "value": "🧧 X-Troid 🧧\nName: X-Troid\nYoutube : youtu.be/mDnJ7q3S3eY\nInfo : type .bot"
+        "ALIVEMSG": {
+            "description": "Customizable Alive Message!: ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
+            "required": false
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
@@ -145,16 +145,52 @@
             "required": false,
             "value": "default"
         },
-        "GAN_IMAGE": {
-            "description": "Type image link for Gan Style plugin.",
+        "LOCK": {
+            "description": "Skip this (under construct yet);මෙය මගහරින්න",
             "required": true,
-            "value": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg"
+            "value": "******"
+        },
+        "LOCKR": {
+            "description": "Skip this (under construct yet);මෙය මගහරින්න",
+            "required": true,
+            "value": "******"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.ගිණුම online වසා තැබීමට",
             "required": false,
             "value": "true"
+        },
+        "EMOJI": {
+            "description": "This is Menu emoji you can cange it here: මෙනුවේ විධාන ඉමොජිය වෙනස් කිරීමට",
+            "required": false,
+            "value": "🔮"
+        },
+        "DEMOJI": {
+            "description": "This is Menu desc emoji you can cange it here: මෙනුවේ දෙවෙනි ඉමොජිය වෙනස් කිරීමට",
+            "required": false,
+            "value": "🪅"
+        },
+        "MENU": {
+            "description": "This is Menu Titele you can cange it here: මෙනුවේ මාතෘකාව වෙනස් කිරීමට",
+            "required": false,
+            "value": "]|I{•--» 𝔁𝓉ŕ𝔬เⒹ «--•}I|["
+        },
+        "CP": {
+            "description": "This is Menu Caption of send media you can cange it here: bot ගෙන් send වෙන photo/video වල තිබිය යුතු නම වෙනස් කිරීමට",
+            "required": false,
+            "value": "•--» 𝔁𝓉ŕ𝔬เⒹ «--•"
+        },
+        "ALIVEIMG": {
+            "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
+            "required": false,
+            "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
+        },
+        "MENUIMG": {
+            "description": "Customizable menu Image!: ඔබට කැමති අයුරින් මෙනුවක් සාදාගැනීමට එහි යෙදිය යුතු පින්තුරය",
+            "required": false,
+            "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
         }
+
     },
     "addons": [{
       "plan": "heroku-postgresql"
@@ -163,3 +199,4 @@
       "url": "heroku-community/apt"
       }]
   }
+  
