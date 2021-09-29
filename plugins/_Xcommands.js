@@ -61,7 +61,7 @@ if (Config.WORKTYPE == 'private') {
 
             }
         );
-       var MENMSG = '\n*'+Config.MENUTEXT+'*\n\n'+ pro +'\n'+ CMD_HELP
+       var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );
 
                 
@@ -130,7 +130,7 @@ else if (Config.WORKTYPE == 'public') {
             }
         );
         
-        var MENMSG = '\n*'+Config.MENUTEXT+'*\n\n'+ pro +'\n'+ CMD_HELP
+        var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
@@ -192,7 +192,7 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
             }
         );
         
-        var MENMSG = '\n*'+Config.MENUTEXT+'*\n\n'+ pro +'\n'+ CMD_HELP
+        var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
