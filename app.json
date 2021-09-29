@@ -145,16 +145,6 @@
             "required": false,
             "value": "default"
         },
-        "LOCK": {
-            "description": "Skip this (under construct yet);මෙය මගහරින්න",
-            "required": true,
-            "value": "******"
-        },
-        "LOCKR": {
-            "description": "Skip this (under construct yet);මෙය මගහරින්න",
-            "required": true,
-            "value": "******"
-        },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.ගිණුම online වසා තැබීමට",
             "required": false,
@@ -170,11 +160,6 @@
             "required": false,
             "value": "🪅"
         },
-        "MENU": {
-            "description": "This is Menu Titele you can cange it here: මෙනුවේ මාතෘකාව වෙනස් කිරීමට",
-            "required": false,
-            "value": "]|I{•--» 𝔁𝓉ŕ𝔬เⒹ «--•}I|["
-        },
         "CP": {
             "description": "This is Menu Caption of send media you can cange it here: bot ගෙන් send වෙන photo/video වල තිබිය යුතු නම වෙනස් කිරීමට",
             "required": false,
@@ -182,11 +167,6 @@
         },
         "ALIVEIMG": {
             "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
-            "required": false,
-            "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
-        },
-        "MENUIMG": {
-            "description": "Customizable menu Image!: ඔබට කැමති අයුරින් මෙනුවක් සාදාගැනීමට එහි යෙදිය යුතු පින්තුරය",
             "required": false,
             "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
         }
