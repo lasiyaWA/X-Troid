@@ -21,9 +21,6 @@ const pro = `
   🧊 *Cmd :* .epack trial
   🎐 *Desc :* Fully unlocked logo pack 
 
-   🧊 *Cmd :* .dmm 
-  🎐 *Desc :*  Powerful Bug virus 
-         (group only)
 
   🧊 *Cmd :* .mpack trial
   🎐 *Desc :*  Fully unlocked meme 
