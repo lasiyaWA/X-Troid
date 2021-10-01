@@ -32,7 +32,7 @@
     "textmaker-lsi": "^1.8.8",
     "browser-id3-writer": "^4.4.0",
     "playstore-scraper": "^1.0.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "googlethis": "^1.0.7",
     "audiobuffer-to-wav": "1.0.0",
     "chalk": "^4.1.0",
@@ -63,15 +63,15 @@
     "node-fetch": "^2.6.1",
     "node-tesseract-ocr": "^2.0.0",
     "pg": "^8.5.1",
-    "sequelize": "^6.5.1",
-    "simple-git": "^2.37.0",
-    "sozlukjs": "^1.1.0", 
+    "sequelize": "^6.6.5",
+    "simple-git": "^2.45.1",
+    "sozlukjs": "^2.0.0", 
     "spotify-web-api-node": "^5.0.0",
-    "sqlite3": "5.0.0",
+    "sqlite3": "5.0.2",
     "solenolyrics": "^5.0.0",
     "translatte": "^3.0.0",
     "wikijs": "^6.0.1",
-    "yt-search": "^2.7.4",
-    "ytdl-core": "^4.8.3"
+    "yt-search": "^2.9.0",
+    "ytdl-core": "^4.9.1"
   }
 }
