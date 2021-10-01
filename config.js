@@ -18,6 +18,8 @@ module.exports = {
     CHANNEL: 'https://t.me/danumabots',
     MENU_EMOJI: process.env.EMOJI === undefined ?'🔮' : process.env.EMOJI,
     DESC_EMOJI: process.env.DEMOJI === undefined ?'🪅' : process.env.DEMOJI,
+    SONG_UP_TEXT: process.env.SONGUPMSG === undefined ?'🪅' : process.env.SONGUPMSG,
+    SONG_DOWN_TEXT: process.env.SONGUPMSG === undefined ?'🪅' : process.env.SONDOWNMSG,
     MENUTEXT: process.env.MENU === undefined ?'Admin' : process.env.MENU,
     CMENUTEXT: process.env.CUSTOMLIST === undefined ?'' : process.env.CUSTOMLIST,
     MENU_IMAGE: process.env.MENUIMG === undefined ?'' : process.env.MENUIMG,

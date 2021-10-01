@@ -169,6 +169,16 @@
             "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
             "required": false,
             "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
+        },
+        "SONDOWNMSG": {
+            "description": "Song downloading message;",
+            "required": true,
+            "value": "╭┄┄┉♫♪♫┉┄┄╮\n*Searching song➧*\n╰┄┄┉♫♪♫┉┄┄╯"
+        },
+        "SONGUPMSG": {
+            "description": "Song Uploading message;",
+            "required": true,
+            "value": ".ılı.—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫"
         }
 
     },
