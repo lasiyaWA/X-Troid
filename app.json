@@ -8,8 +8,8 @@
     "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
-        "A_XTROID_SESSION": {
-            "description": "Type here yours X-Troid Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
+        "A_king_SESSION": {
+            "description": "Type here yours king Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
         "SUDO": {
